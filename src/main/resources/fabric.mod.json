@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "veinminer",
+	"version": "${version}",
+	"name": "Vein Miner",
+	"description": "Adds a Vein Miner enchantment for pickaxes that mines out an entire ore vein at once.",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/veinminer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"yeasty.veinminer.VeinMiner"
+		],
+		"client": [
+			"yeasty.veinminer.client.VeinMinerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
